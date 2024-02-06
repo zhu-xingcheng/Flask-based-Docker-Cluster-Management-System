@@ -1,0 +1,10 @@
+[2024-02-06 21:10:46] {'All Available Images': ['tensorflow:my', 'python:3.8', 'mysql:8.2.0', 'busybox:latest', 'nginx:latest', 'python:latest', 'tensorflow/tensorflow:latest', 'ubuntu:20.04', 'centos:7.9.2009']}
+[2024-02-06 21:11:37] No Running Containers
+[2024-02-06 21:12:22] Container python_test Started
+[2024-02-06 21:12:30] Container nginx_test Started
+[2024-02-06 21:12:55] {'All Running Containers': ['nginx_test:<Container: 9eb1fbb91551>', 'python_test:<Container: 0edd129568c2>']}
+[2024-02-06 21:13:29] Container python_test stopped
+[2024-02-06 21:14:20] {'Command Executed in Container': 'bin boot dev docker-entrypoint.d docker-entrypoint.sh etc home lib lib64 media mnt opt proc root run sbin srv sys tmp usr var '}
+[2024-02-06 21:14:35] {'All Running Clusters': ['nginx_test']}
+[2024-02-06 21:14:50] {'All Containers Removed in Cluster': ['nginx_test:<Container: 9eb1fbb91551>:exited', 'python_test:<Container: 0edd129568c2>:exited']}
+[2024-02-06 21:15:14] Parallel computation started in containers: ['container_partition_0', 'container_partition_1', 'container_partition_2', 'container_partition_3']

@@ -1,0 +1,7 @@
+FROM tensorflow/tensorflow
+
+RUN pip install matplotlib
+
+WORKDIR /app
+
+COPY lreg.py /app
